@@ -1,6 +1,7 @@
 def find_sum_max(arr):
-
+  # Max sum including current element
   include = 0
+  # Max sum excluding current element
   exclude = 0
   for v in arr:
     new_exclude = max(include,exclude)
